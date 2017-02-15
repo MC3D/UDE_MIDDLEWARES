@@ -18,7 +18,7 @@ class UserList extends Component {
 
   render() {
     return (
-      <div>{this.props.users.map(this._renderUser)}</div>
+      <div className="user-list">{this.props.users.map(this._renderUser)}</div>
     );
   }
 }

@@ -7,8 +7,8 @@ export function fetchUsers() {
     type: FETCH_USERS,
     payload: [
       { name: 'Mady' },
-      { name: 'Heather' },
-      { name: 'James' }
+      { name: 'Dan' },
+      { name: 'Joel' }
     ]
   }
 }
